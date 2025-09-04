@@ -1,4 +1,4 @@
-# Blackjack Game 🎴♠️♥️♣️♦️  
+# Blackjack Game 
 
 A Razor Pages web application that simulates a Blackjack game. The project demonstrates object-oriented C# programming with models for **Cards, Deck, and Game Logic**, combined with Razor Pages for rendering an interactive UI.  
 
