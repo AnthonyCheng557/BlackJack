@@ -4,12 +4,7 @@ A Razor Pages web application that simulates a Blackjack game. The project demon
 
 ## Technologies Used  
 
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)  
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)  
-![ASP.NET](https://img.shields.io/badge/asp.net-%231572B6.svg?style=for-the-badge&logo=dotnet&logoColor=white)  
-![Razor Pages](https://img.shields.io/badge/razor%20pages-512BD4.svg?style=for-the-badge&logo=blazor&logoColor=white)  
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)  
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)  
+![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white) ![ASP.NET](https://img.shields.io/badge/asp.net-%231572B6.svg?style=for-the-badge&logo=dotnet&logoColor=white) ![Razor Pages](https://img.shields.io/badge/razor%20pages-512BD4.svg?style=for-the-badge&logo=blazor&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)  
 
 ## Demo  
 
