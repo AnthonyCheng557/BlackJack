@@ -1,0 +1,41 @@
+﻿@page
+@model BlackjackApp.Pages.BlackjackModel
+@{
+    ViewData["Title"] = "Blackjack";
+}
+<!--Markup syntax the allows c# in HTML-->
+<!--C# Models handles the control logic. While Razor displays the logic in an interactive web.-->
+
+<!--Element for Title-->
+<h1>Blackjack</h1>
+
+<!--Displays the card in Text-->
+<p><strong>Dealer Hand:</strong> @string.Join(", ", Model.Game.DealerHand.Select(c => c.Rank + " of " + c.Suit))</p>
+<!--Loops through the dealers hand, and display the image with the image path-->
+@foreach (var card in Model.Game.DealerHand)
+{
+    <img src="@card.ImagePath" alt="@($"{card.Rank} of {card.Suit}")" style="width:100px; margin:5px;" />
+}
+<p><strong>Player Hand:</strong> @string.Join(", ", Model.Game.PlayerHand.Select(c => c.Rank + " of " + c.Suit))</p>
+@foreach (var card in Model.Game.PlayerHand)
+{
+    <img src="@card.ImagePath" alt="@($"{card.Rank} of {card.Suit}")" style="width:100px; margin:5px;" />
+}
+
+<!--If the Result is not Null or Empty, allows the following:-->
+@if (!string.IsNullOrEmpty(Model.Game.Result))
+{
+    <!--Send an HTTP Post request, and start a new game-->
+    <h2>@Model.Game.Result</h2>
+    <form method="post">
+        <button type="submit" name="action" value="new">New Game</button>
+    </form>
+}
+else
+{
+    <!--Send an HTTP Post request, and copntinue the game with the given actions-->
+    <form method="post">
+        <button type="submit" name="action" value="hit">Hit</button>
+        <button type="submit" name="action" value="stand">Stand</button>
+    </form>
+}
