@@ -34,3 +34,18 @@ A Razor Pages web application that simulates a Blackjack game. The project demon
 
 ## Project Structure  
 
+## Project Structure  
+
+- **Models**
+  - `Card.cs` -> Represents a playing card
+  - `Deck.cs` -> Manages a deck of 52 cards
+  - `BlackjackGame.cs` -> Core game logic  
+
+- **Pages**
+  - `Blackjack.cshtml` -> Razor markup for UI
+  - `Blackjack.cshtml.cs` -> PageModel: handles game state & actions  
+
+- **wwwroot**
+  - `Images/` -> Card images (Hearts, Diamonds, Clubs, Spades)  
+
+
