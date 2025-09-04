@@ -32,9 +32,7 @@ A Razor Pages web application that simulates a Blackjack game. The project demon
 - Results displayed clearly: *Player Wins, Dealer Wins, Tie, or Bust*  
 - State management across HTTP requests using **TempData** and JSON serialization  
 
-## Project Structure  
-
-## Project Structure  
+## Project Structure   
 
 - **Models**
   - `Card.cs` -> Represents a playing card
@@ -47,5 +45,22 @@ A Razor Pages web application that simulates a Blackjack game. The project demon
 
 - **wwwroot**
   - `Images/` -> Card images (Hearts, Diamonds, Clubs, Spades)  
+
+
+## How It Works  
+
+1. **Start Game**  
+   - Both player and dealer are dealt two cards.  
+
+2. **Player Turn**  
+   - Click **Hit** to draw another card.  
+   - Click **Stand** to end your turn.  
+
+3. **Dealer Turn**  
+   - Dealer auto-draws until reaching 17 or higher.  
+
+4. **Results**  
+   - The winner is decided and displayed.  
+   - Option to **Start New Game**. 
 
 
